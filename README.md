@@ -1,6 +1,7 @@
 # BoardInfinityTodo
 
 day 1: html and css
+
 day 2: ejs and mongodb 
 
 reference:
