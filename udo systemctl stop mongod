@@ -1,0 +1,11 @@
+[0;1;32m●[0m mongod.service - MongoDB Database Server
+   Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: disabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2020-09-08 14:37:44 IST; 1h 26min ago
+     Docs: https://docs.mongodb.org/manual
+ Main PID: 766 (mongod)
+   Memory: 217.8M
+   CGroup: /system.slice/mongod.service
+           └─766 /usr/bin/mongod --config /etc/mongod.conf
+
+Sep 08 14:37:44 Nikhil systemd[1]: Started MongoDB Database Server.
+Sep 08 16:03:41 Nikhil systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
